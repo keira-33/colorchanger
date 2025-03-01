@@ -8,8 +8,7 @@ const btn = document.getElementById("btn");
 function randomize() {
     const randomNumber = getRandomNumber();
     document.body.style.backgroundColor = colors[randomNumber];
-    document.getElementById("currentColor").innerHTML = colors[randomNumber];
-}
+    document.getElementById("currentColor").innerHTML = colors[randomNumber];}
 
 function getRandomNumber() {
     return Math.floor(Math.random() * colors.length);
