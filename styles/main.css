@@ -1,0 +1,19 @@
+body {
+    background-color: #f1f5f8;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    align-items: center;
+}
+
+main {
+    align-items: center;
+}
+
+footer {
+    align-items: center;
+}
